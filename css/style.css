@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+    background: url('../img/fondo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content-pr {
+    width: 40rem;
+    animation: fadeIn 2s ease;
+}
+
+#img-juego {
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;;}
+}
+
+@media(max-width: 600px){
+    .card-content-pr {
+        width: 20rem;
+        animation: fadeIn 2s ease;
+    }
+    #tom {
+        width: 15rem;
+        height: 12rem;
+    }
+}
